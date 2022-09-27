@@ -1,0 +1,15 @@
+// for flow content that is always stacked
+
+.flow {
+  > :where(:not(:first-child)) {
+    margin-top: var(--flow-spacer, 1rem);
+  }
+
+  &--small {
+    --flow-spacer: 0.25rem;
+  }
+
+  &--large {
+    --flow-spacer: 1.5rem;
+  }
+}

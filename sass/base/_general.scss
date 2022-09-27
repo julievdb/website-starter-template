@@ -1,0 +1,10 @@
+@use '../abstracts' as *;
+
+body {
+  font-family: $ff-sans;
+  font-size: fs(400);
+  font-weight: fw(regular);
+  text-align: center;
+  color: clr(neutral, 900);
+  background-color: clr(neutral, 100);
+}

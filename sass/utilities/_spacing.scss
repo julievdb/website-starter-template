@@ -1,7 +1,7 @@
 @use '../abstracts' as *;
 
 @each $size-name, $size-value in $sizes {
-  .margin {
+  .m {
     &-#{$size-name} {
       margin: $size-value;
     }
@@ -24,7 +24,8 @@
       margin-inline: $size-value;
     }
   }
-  .padding {
+
+  .p {
     &-#{$size-name} {
       padding: $size-value;
     }
