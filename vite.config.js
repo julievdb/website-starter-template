@@ -1,4 +1,4 @@
-import htmlPurge from 'vite-plugin-html-purgecss';
+import htmlPurge from 'vite-plugin-purgecss';
 
 export default {
   plugins: [htmlPurge()]
