@@ -1,0 +1,12 @@
+@use '../abstracts' as *;
+
+.grid-auto-fit {
+  --grid-column-min-width: #{$grid-column-min-width};
+
+  display: grid;
+  grid-gap: var(--grid-gap, $grid-gap);
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(min(var(--grid-column-min-width, 15em), 100%), 1fr)
+  );
+}

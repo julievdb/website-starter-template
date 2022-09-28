@@ -5,11 +5,11 @@
     margin-top: var(--flow-spacer, 1rem);
   }
 
-  &--small {
+  &[data-size='small'] {
     --flow-spacer: 0.25rem;
   }
 
-  &--large {
+  &[data-size='large'] {
     --flow-spacer: 1.5rem;
   }
 }

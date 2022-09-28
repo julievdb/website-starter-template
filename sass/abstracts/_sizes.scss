@@ -6,3 +6,21 @@ $sizes: (
   32: 2rem,
   36: 2.25rem
 );
+
+$grid-gap: 1.5rem; // 24px
+$grid-column-min-width: 30ch;
+
+$flex-group-gap: 1rem; // 16px
+
+$container-inline-padding: 1rem; // 16px
+$container-max-width: 77.75rem; // 1244px
+$container-max-width-wide: 100rem; // 1600px
+
+$region-padding: 7rem; // 112px
+$region-xl-padding: 20rem; // 320px
+
+$button-padding-y: 1.125em;
+$button-padding-x: 2em;
+$button-outline-size: 5px;
+
+$card-body-padding: 5rem; // 80px

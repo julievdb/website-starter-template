@@ -1,0 +1,12 @@
+@use '../abstracts/' as *;
+
+.button {
+  display: inline-flex;
+  border: 0;
+  padding: $button-padding-y $button-padding-x;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1;
+
+  cursor: pointer;
+}

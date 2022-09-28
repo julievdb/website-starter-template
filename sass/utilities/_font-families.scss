@@ -1,0 +1,9 @@
+@use '../abstracts/typography' as *;
+
+.ff-default {
+  font-family: $ff-default;
+}
+
+.ff-display {
+  font-family: $ff-display;
+}
